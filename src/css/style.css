@@ -187,7 +187,7 @@
 }
 
 /* Home banner */
-#home-banner-container::before {
+.home-banner-container::before {
     background-image: url('src/images/homeBanner.jpg');
     content: '';
     position: absolute;
@@ -201,7 +201,7 @@
     height: 120vh;
 }
 
-#home-banner-container {
+.home-banner-container {
     height: 120vh;
     position: relative;
     top: -90px;
